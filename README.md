@@ -2,8 +2,8 @@
 
 ### Firebase
 Primo step: creare un progetto, con account di default Google Analytics per Google Analytics.
-Secondo step: Registrare l'applicazione Android/iOS. Cliccare sull'icona dell'OS in alto all'inizio della dashboard e seguire gli step di Firebase. Per ottenere la chiave SHA, recarsi sul terminale e inserire il seguente comando:
-keytool -list -v -keystore "%USERPROFILE%\.android\debug.keystore" (Passaggio importante)
+Secondo step: Registrare l'applicazione Android/iOS. Cliccare sull'icona dell'OS in alto all'inizio della dashboard e seguire gli step di Firebase. (Passaggio importante) Per ottenere la chiave SHA, recarsi sul terminale e inserire il seguente comando:
+keytool -list -v -keystore "USERPROFILE\ .android\debug.keystore" e inserire la password "android".
 Terzo step: andare su "Authentication" -> "Metodo di accesso" e abilitare provider di accesso Google
 
 ### Applicazione (Android)
