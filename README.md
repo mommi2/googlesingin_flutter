@@ -1,16 +1,14 @@
-# test_google_sign_in
+# Google Sign In - Flutter
 
-A new Flutter application.
+### Firebase
+Primo step: creare un progetto, con account di default Google Analytics per Google Analytics.
+Secondo step: Registrare l'applicazione Android/iOS. Cliccare sull'icona dell'OS in alto all'inizio della dashboard e seguire gli step di Firebase. Per ottenere la chiave SHA, recarsi sul terminale e inserire il seguente comando:
+keytool -list -v -keystore "%USERPROFILE%\.android\debug.keystore" (Passaggio importante)
+Terzo step: andare su "Authentication" -> "Metodo di accesso" e abilitare provider di accesso Google
 
-## Getting Started
+### Applicazione (Android)
+Aggiungere il pacchetto:
+pubspec.yaml:
+  google_sign_in: ^4.0.7
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+pub.dev (per vedere specifiche pacchetto): [google_sing_in](https://pub.dev/packages/google_sign_in#-readme-tab-)
