@@ -6,7 +6,7 @@ Secondo step: Registrare l'applicazione Android/iOS. Cliccare sull'icona dell'OS
 keytool -list -v -keystore "USERPROFILE.android\debug.keystore" e inserire la password "android".
 Terzo step: andare su "Authentication" -> "Metodo di accesso" e abilitare provider di accesso Google.
 IMPORTANTE
-Il applicationId dell'applicazione deve corrispondere con il packages su Firebase. Per vedere il applicationId sull'App, aprire il file build.gradle livello app 
+<applicationId> dell'applicazione deve corrispondere con il packages su Firebase. Per vedere il applicationId sull'App, aprire il file build.gradle livello app 
 
 ### Applicazione (Android)
 Aggiungere il pacchetto:
